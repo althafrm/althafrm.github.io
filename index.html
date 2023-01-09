@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-87YJXRJ2CE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-87YJXRJ2CE');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,9 +22,9 @@
 <body class="light">
     <div id="container--main">
         <section id="wrapper--toggle-mode" class="section--page">
-            <span id="toggle-text">
-                <span id="mode-text">☀️</span>
-            </span>
+            <div id="toggle">
+                <i class="indicator"></i>
+            </div>
         </section>
 
         <section id="wrapper--hero" class="section--page">

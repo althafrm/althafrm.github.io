@@ -1,9 +1,7 @@
-const toggleText = document.getElementById('toggle-text');
+const toggle = document.getElementById('toggle');
 
-toggleText.addEventListener('click', e => {
+toggle.addEventListener('click', e => {
     e.preventDefault();
     document.documentElement.classList.toggle('light');
-
-    const modeText = document.getElementById('mode-text');
-    modeText.innerText = modeText.innerText === '☀️' ? '🌙' : '☀️';
+    toggle.classList.toggle('light');
 });
